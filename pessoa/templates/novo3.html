@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% load widget_tweaks %}
+
+{%block main%}
+
+<form class="form-horizontal" role="form" method="post" >
+       {%csrf_token%}
+       
+       <div class="row">
+          <div class="col-sm-3">
+              <div class="form-group">
+                    <label for="cliente_nome"
+                           class="control-label">Nome</label>
+                           {% render_field form.cliente_nome class='form-control'%}
+                 
+                   
+              </div>
+           </div>
+              
+           <div class="col-sm-3">
+              <div class="form-group">
+                    <label for="endereco"
+                           class="control-label">endereco</label>
+                           {% render_field form.endereco class='form-control'%}
+      
+                    
+              </div>
+          </div>
+          
+          <div class="col-sm-3">
+              <div class="form-group">
+                    <label for="cliente_cpf"
+                           class="control-label">cpf</label>
+                           {% render_field form.cliente_cpf class='form-control'%}
+                           
+                   
+              </div>
+           </div>
+              
+           <div class="col-sm-3">
+              <div class="form-group">
+                    <label for="cliente_rg"
+                           class="control-label">rg</label>
+                           {% render_field form.cliente_rg class='form-control'%}
+               
+                    
+              </div>
+          </div>
+      </div>
+  
+         
+       
+       <div class="row">
+          <div class="form-group">
+	          <div class="offset-sm-2">
+	              <button type="submit"
+	                      class="btn btn-primary">Salvar</button>
+	          </div>
+          </div>
+      </div>
+  </form>
+
+{%endblock%}

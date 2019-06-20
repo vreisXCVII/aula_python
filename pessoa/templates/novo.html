@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% load widget_tweaks %}
+
+{%block main%}
+
+<body background="paes.jpg">
+		<header>
+				<img src="logotipo.png" height="150px" width="250px">
+		</header>
+
+				<div id="principal">
+
+					<div>
+						<h1>Entre no Disk Pães</h1>
+						<div class="gg">
+								<label>Usuário:</label>
+									<input type="number" name="Login" placeholder="Insira seu usuário" id="usuário">
+										<br>
+								<label>Senha:</label>	
+									<input type="password" name="Senha" placeholder="Insira sua senha" id="senha">
+										<br>
+								<input type="submit" name="Logar" onclick="calcular()" value="Logar" id="botao">
+								<a href="cadastro.html"><button>Cadastrar</button></a>
+						</div>
+					</div>
+				</div>
+
+			<footer>
+			</footer>
+</body>
+
+{%endblock%}

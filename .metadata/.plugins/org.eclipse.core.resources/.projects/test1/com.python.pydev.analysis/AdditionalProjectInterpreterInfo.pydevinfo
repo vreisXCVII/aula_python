@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Aula_python\workspace\projeto\.metadata\.plugins\org.eclipse.core.resources\.projects\test1\com.python.pydev.analysis\v2_indexcache
+test1.wsgi|1557872960192258000|E:\Aula_python\workspace\test1\test1\wsgi.py
+test1.__init__|1557872960195219000|E:\Aula_python\workspace\test1\test1\__init__.py
+test1.settings|1557872960228160000|E:\Aula_python\workspace\test1\test1\settings.py
+test1.urls|1557872960187267000|E:\Aula_python\workspace\test1\test1\urls.py
+manage|1557872959865762000|E:\Aula_python\workspace\test1\manage.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+7=E:\Aula_python\workspace\test1\test1\urls.py
+4=test1.wsgi
+5=E:\Aula_python\workspace\test1\manage.py
+1=E:\Aula_python\workspace\test1\test1\settings.py
+2=test1.settings
+3=E:\Aula_python\workspace\test1\test1\wsgi.py
+8=test1.urls
+6=manage
+-- END DICTIONARY
+-- START TREE 1
+18
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|1|application!3^16#1*35@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^100#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^81#1*19@
+deb|1|DEBUG!1^26#1*19@
+ins|1|INSTALLED_APPS!1^40#1*19@
+lan|1|LANGUAGE_CODE!1^106#1*19@
+mai|1|main!5^7#5*50@
+mid|1|MIDDLEWARE!1^50#1*19@
+roo|1|ROOT_URLCONF!1^52#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^120#1*19@
+tem|1|TEMPLATES!1^68#1*19@
+tim|1|TIME_ZONE!1^108#1*19@
+url|1|urlpatterns!7^21#1*67@
+use|3|USE_I18N!1^110#1*19@USE_TZ!1^114#1*19@USE_L10N!1^112#1*19@
+wsg|1|WSGI_APPLICATION!1^70#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
